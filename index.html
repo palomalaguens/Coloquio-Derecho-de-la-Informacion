@@ -185,6 +185,11 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
 
+        .image-container {
+            text-align: center;   /* centra la imagen (es inline-block) */
+            margin: 2rem 0;       /* espacio arriba/abajo, opcional */
+        }
+
         /* Contenedor para DOS imágenes lado a lado */
         .image-dual {
             display: grid;
@@ -202,12 +207,25 @@
         }
 
         /* Leyenda siempre abajo */
-        .image-caption {
+        /* .image-caption {
             font-size: 0.85rem;
             color: #666;
             font-style: italic;
             margin-top: 0.8rem;
+        } */
+         .image-caption {
+            text-align: center;
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+            color: #555;
         }
+
+        /* .image-caption-single {
+            text-align: center;
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+            color: #555;
+        } */
 
         /* En mobile: se apilan automáticamente */
         @media (max-width: 768px) {
@@ -403,7 +421,7 @@
         
         <p>
            El cine, es un medio de comunicación con un rol histórico clave, actualmente goza de plena libertad de expresión, pero su pasado está marcado por la censura profunda impuesta principalmente por las sucesivas dictaduras.
-           El primer periodo de censura importante se dio en los años 60, con la creación del Consejo Nacional Honorario de Calificación Cinematográfica. Esta entidad tenía la facultad de ordenar cortes o prohibir películas por razones que "afecten a la moral pública, los bienes, costumbres o la seguridad nacional". El segundo periodo, y más grave, fue el de la década del 70, que se profundizó con el decreto-ley 18.019. Esta norma expresaba preocupaciónpor la influencia del cine en los jóvenes y dispuso un "grupo de entendidos" que decidía qué podía ver la ciudadanía
+           El primer periodo de censura importante se dio en los años 60, con la creación del Consejo Nacional Honorario de Calificación Cinematográfica. Esta entidad tenía la facultad de ordenar cortes o prohibir películas por razones que "afecten a la moral pública, los bienes, costumbres o la seguridad nacional". El segundo periodo, y más grave, fue el de la década del 70, que se profundizó con el decreto-ley 18.019. Esta norma expresaba preocupaciónpor la influencia del cine en los jóvenes y dispuso un "grupo de entendidos" que decidía qué podía ver la ciudadanía.
         </p>
 
         <div class="image-container">
@@ -412,7 +430,7 @@
         </div>
 
         <p>
-            Con el regreso de la democracia bajo el gobierno de Raúl Alfonsín en 1983, la ley 18.019 fue derogada, y con ella desapareció el Ente de Calificación Cinematográfica. Las derogaciones se basaron en principios democráticos: libertad de expresión sin censura previa y defensa del pluralismo ideológico. Sin embargo, el financiamiento del sector sigue siendo un punto vulnerable: bajo la actual presidencia de Javier Milei, la Ley de Cine sufrió duras modificaciones que implican un fuerte desfinanciamiento, reflejando una postura de mínima participación estatal
+            Con el regreso de la democracia bajo el gobierno de Raúl Alfonsín en 1983, la ley 18.019 fue derogada, y con ella desapareció el Ente de Calificación Cinematográfica. Las derogaciones se basaron en principios democráticos: libertad de expresión sin censura previa y defensa del pluralismo ideológico. Sin embargo, el financiamiento del sector sigue siendo un punto vulnerable: bajo la actual presidencia de Javier Milei, la Ley de Cine sufrió duras modificaciones que implican un fuerte desfinanciamiento, reflejando una postura de mínima participación estatal.
         </p>
     </section>
 
@@ -497,7 +515,7 @@
     <!-- ═════════════════ FOOTER ═════════════════ -->
     <footer style="background: #1a1a1a; color: white; text-align: center; padding: 1.5rem 0;">
         <div class="container">
-            <p>&copy; 2024 - Landing Page académica basada en el trabajo de Paloma Laguens</p>
+            <p>&copy; 2024 - Trabajo final cátedra Derecho de la Información - FCC - UNC</p>
         </div>
     </footer>
 
